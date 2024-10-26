@@ -1,0 +1,130 @@
+/*
+	jBar v2.0.0
+	URL: www.toddmotto.com
+*/
+
+/*------------------------------------*\
+    jBar
+\*------------------------------------*/
+
+.jbar {
+background-color: #fef5f1;
+	font-family:"Open Sans",sans-serif;
+    border-bottom: 3px solid #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    font-family: "Open Sans",?sans-serif;
+	font-size:	14.3px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+
+
+.jbar-wrap li {
+    color: #8c2e0b;
+    font-size: 15px;
+    line-height: 22.1px;
+	margin: 6px 0;
+    list-style: outside none disc;
+}
+.jbar,
+.jbar-push {
+	display:none;
+	transition:margin-top .25s linear;
+	-webkit-transition:margin-top .25s linear;
+	-moz-transition:margin-top .25s linear;
+}
+.jbar-wrap {
+    border: 1px solid #ed541d;
+    margin: 2em 2em 0;
+    max-height: 310px;
+    overflow: auto;
+    padding: 0 25px 0 40px;
+    text-align: left;
+}
+.jbar-wrap > ul {
+    margin: 14px 0;
+}
+.jbar p {
+	margin:0;
+	padding:0;
+	font-size:14px;
+}
+.jbar p{
+    margin: 1% 2%;
+	color:#000;
+	zoom:1;
+}
+.jbar span.orange-box {
+    background-color: #cc0000;
+    color: #fce94f;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 3px;
+}
+
+p.jbar-buttons {
+    text-align: right;
+}
+
+.jbar-button {
+    text-decoration: none;
+	margin-right:1em;
+}
+
+.jbar-up-toggle {
+	padding:10px;
+}
+.jbar-down-toggle {
+	visibility:hidden;
+	position:fixed;
+	top:0;
+	right:50px;
+	z-index:999999;
+	display:block;
+	padding:10px 10px 5px;
+	background:#cc0000;
+	border:3px solid #FFF;
+	border-top:none;
+	line-height:18px;
+	text-decoration:none;
+	border-radius:0 0 4px 4px;
+	box-shadow:0 1px 4px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow:0 1px 4px rgba(0,0,0,0.3);
+	transition:margin-top .15s linear;
+	-webkit-transition:margin-top .15s linear;
+	-moz-transition:margin-top .15s linear;
+}
+a .jbar-no {
+    color: yellow;
+	font-family:"Open Sans",sans-serif;
+    font-size: 22.1px;
+    font-weight: bold;
+    padding: 0 2px;
+    text-shadow: 0 1px black;
+    vertical-align: super;
+}
+.jbar-up-arrow {
+	width:20px;
+	height:20px;
+	background:url('img/close.png') no-repeat center center;
+}
+.jbar-down-arrow {
+	width:21px;
+	height:23px;
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAXCAMAAADTAfSvAAAAnFBMVEWgoKD///8PDw8RERH///+cnJyfn58rKyv///////////8mJib///////+ampr///+FhYX///////////////+Dg4P///////+Li4sGBgb///////////8hISGOjo7///////////+WlpaRkZH///////8vLy////////////////////8XFxf///8cHBz///8MDAwAAAAAAAAAAABgXTkEAAAANHRSTlNWJmUsKVVVMBsYOS8XGlMBSQUfMzVIBANLKjI4HS5NNx4vUE8tJDE6IzQrNiwhLQIrYSkAN4qAdAAAAIRJREFUeNrdz0UWwzAQA9ApMyVlprATt9b979bWjuH5CNVu/mYkgsxbR521Cp2/0qj5G2pUzaaSKuElzglRl3mYjAlodFou9pKB/NaeviyOhhNIneV3w6dDXzfjz0fN1eVo+/LbeSexuLor+H77RVaUcBWbbC5YptAq1stVmMJXLAKD+AAYmVm/0d4W0wAAAABJRU5ErkJggg==) no-repeat center center;
+}
+.jbar-wrap > b {
+    color: white;
+    font-weight: bold;
+}
+.dashicons-errflag:before {
+	content: "\f227";
+}
+#adminmenu  div.dashicons-errflag:before{
+color:#f70000 !important;
+}
